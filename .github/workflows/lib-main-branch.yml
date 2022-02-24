@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-  assmebleDebug:
+  assmeble:
 
     runs-on: ubuntu-latest
 
