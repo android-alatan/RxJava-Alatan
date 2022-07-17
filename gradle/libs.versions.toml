@@ -3,22 +3,21 @@ androidAnnotation = "1.1.0"
 moshi = "1.13.0"
 javaX = "1"
 kotlinPoet = "1.8.0"
-ksp = "1.6.20-1.0.5"
-kotlin = { prefer = "1.6.20" }
-agp = "7.1.1"
+ksp = "1.7.0-1.0.6"
+kotlin = "1.7.0"
+agp = "7.2.0"
 junit5 = "5.8.2"
-detekt = "1.19.0"
+detekt = "1.20.0"
 kotlinDsl = "2.2.0"
 mavenPublish = "0.18.0"
-jacoco = "0.8.7"
-jsonParser = "0.1.0"
+jacoco = "0.8.8"
+jsonParser = "0.1.2"
 androidBuildTool = "32.0.0"
 androidCompile = "32"
 targetSdk = "32"
 minSdk = "21"
-rxjava = "3.1.1"
+rxjava = "3.1.5"
 rxjavaAndroid = "3.0.0"
-coroutine = "1.5.0"
 androidxTest-junit = "1.1.3"
 androidxTest-core = "1.4.0"
 roboletric = "4.5.1"
@@ -35,8 +34,7 @@ kspProcessingApi = { module = "com.google.devtools.ksp:symbol-processing-api", v
 agp = { module = "com.android.tools.build:gradle", version.ref = "agp" }
 rxjava = { module = "io.reactivex.rxjava3:rxjava", version.ref = "rxjava" }
 rxjavaAndroid = { module = "io.reactivex.rxjava3:rxandroid", version.ref = "rxjavaAndroid" }
-coroutine = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutine" }
-recyclerview = { module = "androidx.recyclerview:recyclerview", version= "1.2.0" }
+recyclerview = { module = "androidx.recyclerview:recyclerview", version= "1.2.1" }
 databinding-runtime = {module = "androidx.databinding:databinding-runtime", version.ref="agp"}
 databinding-common = {module = "androidx.databinding:databinding-common", version.ref="agp"}
 
@@ -50,7 +48,6 @@ jacoco = { module = "org.jacoco:org.jacoco.core", version.ref = "jacoco" }
 mockito = { module = "org.mockito:mockito-core", version = "2.23.4" }
 mockitoKotlin = { module = "org.mockito.kotlin:mockito-kotlin", version = "4.0.0" }
 turbine = { module = "app.cash.turbine:turbine", version = "0.7.0" }
-coroutineTest = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutine" }
 test-robolectric-core = {module ="org.robolectric:robolectric", version.ref="roboletric"}
 test-robolectric-shadow = {module ="org.robolectric:shadowapi", version.ref="roboletric"}
 
